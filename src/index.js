@@ -1,6 +1,5 @@
 module.exports = function reverse (n) {
-    return n >= 0
-    ? `${n}`.split('').reverse().join('')
-    : (`${-n}`.split('').reverse().join(''))
+    let x = parseFloat(n.toString().split("").reverse().join("")) * Math.sign(n);
+    return Math.abs(number);
     
 }
